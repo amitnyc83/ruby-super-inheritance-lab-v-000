@@ -7,7 +7,7 @@ def hello
 end
 
 def raise_hand
-  # super
+  super
   9.times {
   puts "Hello!"}
 end

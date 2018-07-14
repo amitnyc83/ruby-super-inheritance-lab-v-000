@@ -9,7 +9,8 @@ end
 def raise_hand
   super
   9.times {
-  puts "Hello!"}
+  puts "Pick me!"
+}
 end
 
 

@@ -1,5 +1,3 @@
-require 'pry'
-
 class ChattyStudent < Student
 
 
@@ -10,7 +8,6 @@ end
 
 def raise_hand
   super
-  binding.pry
   10.times
   puts "Pick me!"
 end

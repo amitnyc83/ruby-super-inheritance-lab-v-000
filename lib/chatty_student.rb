@@ -1,4 +1,4 @@
-class ChattyStudent < Student 
+class ChattyStudent < Student
 
 
 def hello
@@ -8,7 +8,6 @@ end
 
 def raise_hand
   super
-  10.times
   puts "Pick me!"
 end
 
